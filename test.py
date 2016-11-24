@@ -1,5 +1,13 @@
 import json
  
+class Pokemon(object):
+	def __init__ (self,id,name,type,base_hp,base_atk,base_def ):
+  		self.id=id
+		self.name=name
+		self.type=type
+		self.base_hp = base_hp
+		self.base_atk=base_atk
+		self.base_def=base_def 
 
 def welcome():
 	print "Welcome to the demo\n"
@@ -14,7 +22,7 @@ def welcome():
 			print "Base Hp = %d"%(p1.base_hp)
 			print "Base Attack = %d"% (p1.base_atk)
 			print "Base Defense = %d"% (p1.base_def)
-			text()
+			print_out_pokemon()
 			test = False
 		elif x == "2":
 			print "Your pokemon descriptions:\n"
@@ -24,19 +32,12 @@ def welcome():
 			print "Base Hp = %d"%(p2.base_hp)
 			print "Base Attack = %d"% (p2.base_atk)
 			print "Base Defense = %d"% (p2.base_def)
-			text()
+			print_out_pokemon()
 			test = False
 		else:
 				print "Invalid input.\n" 	
-class Pokemon(object):
-	def __init__ (self,id,name,type,base_hp,base_atk,base_def ):
-  		self.id=id
-		self.name=name
-		self.type=type
-		self.base_hp = base_hp
-		self.base_atk=base_atk
-		self.base_def=base_def
-def text():
+
+def print_out_pokemon():
 	print "You chose your first pokemon.\n"
 	print "The other player will play the remaining pokemon.\n"
 	print "Player 1 will attack first\n."

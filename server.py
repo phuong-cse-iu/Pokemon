@@ -25,20 +25,10 @@ def broadcast_data (sock, message):
                 CONNECTION_LIST.remove(socket)
  
 if __name__ == "__main__":
-     
     # List to keep track of socket descriptors
     CONNECTION_LIST = []
-    PLAYER_LIST = []
     RECV_BUFFER = 4096 # Advisable to keep it as an exponent of 2
     PORT = 9999
-    COUNT = 0
-    # open pokedex.json file
-    with open("player.json", "r") as jsonFile:
-	    data = json.load(jsonFile)
-    print (data)
-
-   
-     
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # this has no effect, why ?
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -47,13 +37,7 @@ if __name__ == "__main__":
  
     # Add server socket to the list of readable connections
     CONNECTION_LIST.append(server_socket)
-
-   
- 
     print "Chat server started on port " + str(PORT)
-
-    for p in player:
-        print p
  
     while 1:
         # Get the list sockets which are ready to be read through select
@@ -82,17 +66,9 @@ if __name__ == "__main__":
                             sock.send("Choose another char!")
                         else:
                             player.remove(data)
-                            sock.send(data)
-
-                                        
+                            sock.send(data)                    
                     if data:
                         broadcast_data(sock, "\r" + '<' + str(sock.getpeername()) + '> ' + data)           
-                    
-
-                    for p in player:
-                        print p
-
-
                 except:
                     broadcast_data(sock, "Client (%s, %s) is offline" % (ip, port))
                     print "Client (%s, %s) is offline" % (ip, port)

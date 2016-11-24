@@ -11,3 +11,8 @@ data["Player1"]["setting"] = defaults["region"]
 
 with open("player.json", "w") as jsonFile:
 	jsonFile.write(json.dumps(data))
+
+
+
+
+	
