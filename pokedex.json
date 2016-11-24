@@ -1,0 +1,907 @@
+[
+	{
+		"id": 1,
+		"name": "Ivysaur",
+		"type": ["grass",
+		"poison"],
+		"base_experience": 142,
+		"base_hp":60,
+		"base_atk":62,
+		"base_def":63,
+		"base_speed":60,
+		"base_special_atk":80,
+		"base_special_def":80,
+		"dmg_when_atked": [
+			{
+			"type":"flying",
+			"multiply":2
+			},
+			{
+			"type":"psychic",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"electric",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"grass",
+			"multiply":0.25
+			}
+
+			]
+	},
+
+	{
+		"id": 2,
+		"name": "Venusaur",
+		"type": ["grass",
+		"poison"],
+		"base_experience": 236,
+		"base_hp":80,
+		"base_atk":82,
+		"base_def":83,
+		"base_speed":80,
+		"base_special_atk":100,
+		"base_special_def":100,
+		"dmg_when_atked": [
+			{
+			"type":"flying",
+			"multiply":2
+			},
+			{
+			"type":"psychic",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"electric",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"grass",
+			"multiply":0.25
+			}
+
+			]
+	},
+
+
+	{
+		"id": 3,
+		"name": "Charmeleon",
+		"type": ["fire"],
+		"base_experience": 142,
+		"base_hp":58,
+		"base_atk":64,
+		"base_def":58,
+		"base_speed":80,
+		"base_special_atk":80,
+		"base_special_def":65,
+		"dmg_when_atked": [
+			{
+			"type":"water",
+			"multiply":2
+			},
+			{
+			"type":"rock",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+			]
+	},
+
+	{
+		"id": 4,
+		"name": "Charizard",
+		"type": ["fire"
+		,"flying"],
+		"base_experience": 240,
+		"base_hp":78,
+		"base_atk":84,
+		"base_def":78,
+		"base_speed":100,
+		"base_special_atk":109,
+		"base_special_def":85,
+		"dmg_when_atked": [
+			{
+			"type":"rock",
+			"multiply":4
+			},
+			{
+			"type":"water",
+			"multiply":2
+			},
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"multiply":0.5
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			},
+			{
+			"type":"grass",
+			"multiply":0.5
+			}
+
+			]
+	},
+
+	{
+		"id": 5,
+		"name": "Squirtle",
+		"type": ["water"],
+		"base_experience": 63,
+		"base_hp":44,
+		"base_atk":48,
+		"base_def":65,
+		"base_speed":43,
+		"base_special_atk":50,
+		"base_special_def":64,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"grass",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+
+			]
+	},
+
+	{
+		"id": 6,
+		"name": "Blastoise",
+		"type": ["water"],
+		"base_experience": 239,
+		"base_hp":79,
+		"base_atk":83,
+		"base_def":100,
+		"base_speed":78,
+		"base_special_atk":85,
+		"base_special_def":105,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"grass",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+			]
+	},
+
+	{
+		"id": 7,
+		"name": "Pikachu",
+		"type": ["electric"],
+		"base_experience": 112,
+		"base_hp":35,
+		"base_atk":55,
+		"base_def":40,
+		"base_speed":90,
+		"base_special_atk":50,
+		"base_special_def":50,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":0.5
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			},
+			{
+			"type":"flying",
+			"multiply":0.5
+			}
+			 
+			]
+	},
+
+	{
+		"id": 8,
+		"name": "Pidgeot",
+		"type": ["flying","normal"],
+		"base_experience": 216,
+		"base_hp":83,
+		"base_atk":80,
+		"base_def":75,
+		"base_speed":101,
+		"base_special_atk":70,
+		"base_special_def":70,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"rock",
+			"multiply":2
+			},
+			{
+			"type":"grass",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"multiply":0.5
+			},
+			{
+			"type":"ground",
+			"multiply":0
+			}, 
+			{
+			"type":"ghost",
+			"multiply":0
+			}
+			]
+	},
+
+	{
+		"id": 9,
+		"name": "Nidoqueen",
+		"type": ["ground","poison"],
+		"base_experience": 227,
+		"base_hp":90,
+		"base_atk":92,
+		"base_def":87,
+		"base_speed":76,
+		"base_special_atk":75,
+		"base_special_def":85,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":0
+			},
+			{
+			"type":"psychic",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"water",
+			"multiply":2
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"rock",
+			"multiply":0.5
+			}, 
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"mulitply":0.5
+			},
+			{
+			"type":"poison",
+			"multiply":0.25
+			}
+			]
+	},
+
+	{
+		"id": 10,
+		"name": "Clefairy",
+		"type": ["fairy"],
+		"base_experience": 113,
+		"base_hp":70,
+		"base_atk":45,
+		"base_def":48,
+		"base_speed":35,
+		"base_special_atk":60,
+		"base_special_def":65,
+		"dmg_when_atked": [
+			{
+			"type":"steel",
+			"multiply":2
+			},
+			{
+			"type":"poison",
+			"multiply":2
+			},
+			{
+			"type":"dark",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"dragon",
+			"multiply":0
+			} 
+			]
+	},
+
+	{
+		"id": 11,
+		"name": "Ninetales",
+		"type": ["fire"],
+		"base_experience": 177,
+		"base_hp":73,
+		"base_atk":76,
+		"base_def":75,
+		"base_speed":100,
+		"base_special_atk":81,
+		"base_special_def":100,
+		"dmg_when_atked": [
+			{
+			"type":"water",
+			"multiply":2
+			},
+			{
+			"type":"rock",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+			]
+	},
+
+	{
+		"id": 12,
+		"name": "Jigglypuff",
+		"type": ["fairy","normal"],
+		"base_experience": 95,
+		"base_hp":115,
+		"base_atk":45,
+		"base_def":20,
+		"base_speed":20,
+		"base_special_atk":45,
+		"base_special_def":25,
+		"dmg_when_atked": [
+			{
+			"type":"steel",
+			"multiply":2
+			},
+			{
+			"type":"poison",
+			"multiply":2
+			},
+			{
+			"type":"dark",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"multiply":0.5
+			},
+			{
+			"type":"dragon",
+			"multiply":0.5
+			},
+			{
+			"type":"ghost",
+			"multiply":0.5
+			} 
+			]
+	},
+
+	{
+		"id": 13,
+		"name": "Golbat",
+		"type": ["poison","flying"],
+		"base_experience": 159,
+		"base_hp":75,
+		"base_atk":80,
+		"base_def":70,
+		"base_speed":90,
+		"base_special_atk":65,
+		"base_special_def":75,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"psychic",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"rock",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"poison",
+			"multiply":0.5
+			},
+			{
+			"type":"grass",
+			"multiply":0.5
+			},
+			{
+			"type":"bug",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":2
+			} 
+			]
+	},
+
+
+	{
+		"id": 14,
+		"name": "Gloom",
+		"type": ["grass","poison"],
+		"base_experience": 138,
+		"base_hp":60,
+		"base_atk":65,
+		"base_def":70,
+		"base_speed":40,
+		"base_special_atk":85,
+		"base_special_def":75,
+		"dmg_when_atked": [
+			{
+			"type":"flying",
+			"multiply":2
+			},
+			{
+			"type":"psychic",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":2
+			},
+			{
+			"type":"ground",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"electric",
+			"multiply":0.5
+			},
+			{
+			"type":"fairy",
+			"multiply":0.5
+			},
+			{
+			"type":"grass",
+			"multiply":0.25
+			} 
+			]
+	},
+
+
+	{
+		"id": 15,
+		"name": "Dugtrio",
+		"type": ["ground"],
+		"base_experience": 149,
+		"base_hp":35,
+		"base_atk":80,
+		"base_def":50,
+		"base_speed":120,
+		"base_special_atk":50,
+		"base_special_def":70,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":0
+			},
+			{
+			"type":"grass",
+			"multiply":2
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"water",
+			"multiply":2
+			},
+			{
+			"type":"rock",
+			"multiply":0.5
+			},
+			{
+			"type":"ground",
+			"multiply":0.5
+			},
+			{
+			"type":"poison",
+			"multiply":0.5
+			}
+			 
+			]
+	},
+
+
+
+
+	{
+		"id": 16,
+		"name": "Meowth",
+		"type": ["normal"],
+		"base_experience": 58,
+		"base_hp":40,
+		"base_atk":45,
+		"base_def":35,
+		"base_speed":90,
+		"base_special_atk":40,
+		"base_special_def":45,
+		"dmg_when_atked": [
+			{
+			"type":"fighting",
+			"multiply":2
+			},
+			{
+			"type":"ghost",
+			"multiply":0
+			} 
+			]
+	},
+
+
+	{
+		"id": 17,
+		"name": "Psyduck",
+		"type": ["water"],
+		"base_experience": 64,
+		"base_hp":50,
+		"base_atk":52,
+		"base_def":48,
+		"base_speed":55,
+		"base_special_atk":65,
+		"base_special_def":50,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"grass",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+			]
+	},
+
+
+	{
+		"id": 18,
+		"name": "Poliwhirl",
+		"type": ["water"],
+		"base_experience": 135,
+		"base_hp":65,
+		"base_atk":65,
+		"base_def":65,
+		"base_speed":90,
+		"base_special_atk":50,
+		"base_special_def":50,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":2
+			},
+			{
+			"type":"grass",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"water",
+			"multiply":0.5
+			},
+			{
+			"type":"ice",
+			"multiply":0.5
+			},
+			{
+			"type":"steel",
+			"multiply":0.5
+			} 
+			]
+	},
+
+
+	{
+		"id": 19,
+		"name": "Alakazam",
+		"type": ["psychic"],
+		"base_experience": 225,
+		"base_hp":55,
+		"base_atk":50,
+		"base_def":45,
+		"base_speed":120,
+		"base_special_atk":135,
+		"base_special_def":95,
+		"dmg_when_atked": [
+			{
+			"type":"dragon",
+			"multiply":2
+			},
+			{
+			"type":"ghost",
+			"multiply":2
+			},
+			{
+			"type":"bug",
+			"multiply":2
+			},
+			{
+			"type":"psychic",
+			"multiply":0.5
+			},
+			{
+			"type":"fighting",
+			"multiply":0.5
+			} 
+			]
+	},
+
+
+
+
+	{
+		"id": 20,
+		"name": "Onix",
+		"type": ["rock","ground"],
+		"base_experience": 77,
+		"base_hp":35,
+		"base_atk":45,
+		"base_def":160,
+		"base_speed":78,
+		"base_special_atk":30,
+		"base_special_def":45,
+		"dmg_when_atked": [
+			{
+			"type":"electric",
+			"multiply":0
+			},
+			{
+			"type":"grass",
+			"multiply":4
+			},
+			{
+			"type":"fighting",
+			"multiply":2
+			},
+			{
+			"type":"water",
+			"multiply":4
+			},
+			{
+			"type":"ice",
+			"multiply":2
+			},
+			{
+			"type":"steel",
+			"multiply":2
+			},
+			{
+			"type":"fire",
+			"multiply":0.5
+			},
+			{
+			"type":"rock",
+			"multiply":0.5
+			},
+			{
+			"type":"flying",
+			"multiply":0.5
+			},
+			{
+			"type":"normal",
+			"multiply":0.5
+			},
+			{
+			"type":"poison",
+			"multiply":0.5
+			},
+			{
+			"type":"electric",
+			"multiply":0.5
+			}
+			]
+	}
+
+]

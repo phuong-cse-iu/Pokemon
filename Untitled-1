@@ -1,0 +1,13 @@
+with open("player.json", "r") as jsonFile:
+	data = json.load(jsonFile)
+
+with open("defaults.json", "r") as jsonFile:
+	defaults = json.load(jsonFile)
+
+print defaults
+
+data["Player1"]["setting"] = defaults["region"]
+
+
+with open("player.json", "w") as jsonFile:
+	jsonFile.write(json.dumps(data))
