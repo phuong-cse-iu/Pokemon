@@ -3,15 +3,6 @@ import socket, select
 
 player = ["1", "2"]
  
-def choose_pokemon(pokemon):
-    list_of_active_pokemon = []
-    for one_pokemon in pokemon:
-        list_of_active_pokemon.append(one_pokemon)
-    return list_of_active_pokemon
-
-def fight_pokemon(pokemon):
-    return pokemon
-
 #Function to broadcast chat messages to all connected clients
 def broadcast_data (sock, message):
     #Do not send the message to master socket and the client who has send us the message
